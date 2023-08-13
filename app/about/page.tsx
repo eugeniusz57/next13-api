@@ -1,7 +1,9 @@
-import React from "react";
+import { Metadata } from "next";
 
-const About = () => {
-  return <div></div>;
+export const metadata: Metadata = {
+  title: "About | Next App",
 };
 
-export default About;
+export default function About() {
+  return <h3>Select subitem</h3>;
+}

@@ -1,7 +1,5 @@
-type Props = {};
-
-const Footer = (props: Props) => {
-  return <div>Footer</div>;
+const TheFooter = () => {
+  return <footer className="container">Created by &copy; YK</footer>;
 };
 
-export default Footer;
+export default TheFooter;
